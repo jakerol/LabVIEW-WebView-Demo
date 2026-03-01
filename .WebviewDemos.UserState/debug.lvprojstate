@@ -1,5 +1,34 @@
 <Configuration>
   <Target name="My Computer">
     <EnableDebuggingForAllVIs>0</EnableDebuggingForAllVIs>
+    <VI name="Chrome.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="2047"/>
+          <SignalUID value="4798"/>
+        </Generic>
+      </Probes>
+    </VI>
+    <VI name="Embedded Webview.vi">
+      <Breakpoints>
+        <NodeIndexes>
+        </NodeIndexes>
+        <SignalIndexes>
+        </SignalIndexes>
+      </Breakpoints>
+      <Probes>
+        <Generic>
+          <SignalUID value="553"/>
+          <SignalUID value="1690"/>
+          <SignalUID value="1450"/>
+        </Generic>
+      </Probes>
+    </VI>
   </Target>
 </Configuration>
