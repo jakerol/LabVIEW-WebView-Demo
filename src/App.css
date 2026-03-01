@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.slider-container {
+  display: inline-flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.slider-container.horizontal .slider-track {
+  width: 300px;
+  height: 14px;
+}
+
+.slider-container.vertical {
+  flex-direction: column;
+}
+
+.slider-container.vertical .slider-track {
+  width: 14px;
+  height: 220px;
+}
+
+.slider-track {
+  position: relative;
+  border-radius: 999px;
+  background: rgb(16, 49, 194);
+  cursor: pointer;
+  user-select: none;
+  touch-action: none;
+  overflow: hidden;
+}
+
+.slider-fill {
+  position: absolute;
+  border-radius: 999px;
+  background: rgba(252, 252, 252, 0.35);
+}
+
+.slider-thumb {
+  position: absolute;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.slider-label-group {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
